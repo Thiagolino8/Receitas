@@ -78,12 +78,8 @@ WSGI_APPLICATION = 'Receitas.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'receitas',
-        'USER': 'root',
-        'PASSWORD': '1010',
-        'HOST': '127.0.0.1',
-        'PORT': '3305',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'mydatabase',
     }
 }
 
